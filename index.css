@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(17, 14, 36);
+}
+
+.control-pad {
+  color: #fff;
+}
+.control-pad select {
+  outline: none;
+  width: 150px;
+  height: 25px;
+  border-radius: 4px;
+}
+
+.keyboard {
+  position: relative;
+  margin-top: 5rem;
+  border: 1px solid rgb(134, 134, 134);
+}
+
+.white--keys {
+  display: flex;
+}
+.keynote-white {
+  width: 50px;
+  height: 250px;
+  background-color: #fff;
+  border: 1px solid rgb(19, 19, 19);
+}
+.black--keys {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  padding: 0px 35px;
+  justify-content: space-between;
+}
+.keynote-black {
+  width: 25px;
+  height: 100%;
+  background-color: black;
+  box-shadow: rgba(12, 13, 14, 0.514) 0px 1px 2px 0px,
+    rgba(21, 23, 24, 0.712) 0px 2px 6px 2px;
+}
+.clicked {
+  background-color: rgb(202, 202, 202);
+}
+.set-one {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.set-two {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.set-three {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
